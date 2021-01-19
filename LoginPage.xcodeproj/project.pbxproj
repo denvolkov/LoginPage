@@ -11,6 +11,8 @@
 		5242E29525B5B8640003D86B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242E29425B5B8640003D86B /* ContentView.swift */; };
 		5242E29725B5B86D0003D86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5242E29625B5B86D0003D86B /* Assets.xcassets */; };
 		5242E29A25B5B86D0003D86B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5242E29925B5B86D0003D86B /* Preview Assets.xcassets */; };
+		5242E2A425B706C80003D86B /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5242E2A225B706C70003D86B /* Screenshot01.png */; };
+		5242E2A525B706C80003D86B /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5242E2A325B706C70003D86B /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5242E29625B5B86D0003D86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5242E29925B5B86D0003D86B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5242E29B25B5B86D0003D86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5242E2A225B706C70003D86B /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		5242E2A325B706C70003D86B /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		5242E29125B5B8640003D86B /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
+				5242E2A725B706CF0003D86B /* Screenshots */,
 				5242E29225B5B8640003D86B /* LoginPageApp.swift */,
 				5242E29425B5B8640003D86B /* ContentView.swift */,
 				5242E29625B5B86D0003D86B /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				5242E29925B5B86D0003D86B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5242E2A725B706CF0003D86B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5242E2A225B706C70003D86B /* Screenshot01.png */,
+				5242E2A325B706C70003D86B /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,8 @@
 			files = (
 				5242E29A25B5B86D0003D86B /* Preview Assets.xcassets in Resources */,
 				5242E29725B5B86D0003D86B /* Assets.xcassets in Resources */,
+				5242E2A425B706C80003D86B /* Screenshot01.png in Resources */,
+				5242E2A525B706C80003D86B /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
