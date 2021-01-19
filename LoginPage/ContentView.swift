@@ -17,7 +17,8 @@ struct ContentView: View {
             VStack {
                 Image("logo")
                     .resizable()
-                    .frame(width: 90, height: 50)
+                    .frame(width: 180, height: 180)
+                    .clipShape(Capsule())
                 ZStack {
                     SingUp(index: self.$index)
                         .zIndex(Double(self.index))
