@@ -19,8 +19,9 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 90, height: 50)
                 ZStack {
-                    Text("Hello")
-                    
+                    SingUp(index: self.$index)
+                        .zIndex(Double(self.index))
+                    Login(index: self.$index)
                 }
                 HStack(spacing: 15) {
                     Rectangle()
@@ -131,7 +132,7 @@ struct Login: View {
                 
                 VStack {
                     HStack(spacing: 15) {
-                        Image(systemName: "envelop.fill")
+                        Image(systemName: "envelope.fill")
                             .foregroundColor(Color("Color1"))
                         TextField("Email Adress", text: self.$email)
                     }
@@ -277,6 +278,7 @@ struct SingUp: View {
                     .fontWeight(.bold)
                     .padding(.vertical)
                     .padding(.horizontal, 50)
+                    .background(Color("Color1"))
                     .clipShape(Capsule())
                     .shadow(color: Color.white.opacity(0.1), radius: 5, x: 0, y: -5)
             }
