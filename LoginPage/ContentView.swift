@@ -139,7 +139,8 @@ struct Login: View {
                     
                     Divider()
                         .background(Color.white.opacity(0.5))
-                } .padding(.horizontal)
+                }
+                .padding(.horizontal)
                 .padding(.top, 40)
                 
                 VStack {
@@ -151,7 +152,8 @@ struct Login: View {
                     
                     Divider()
                         .background(Color.white.opacity(0.5))
-                } .padding(.horizontal)
+                }
+                .padding(.horizontal)
                 .padding(.top, 30)
                 
                 HStack {
@@ -162,11 +164,13 @@ struct Login: View {
                         Text("Forget Password?")
                             .foregroundColor(Color.white.opacity(0.6))
                     }
-                } .padding(.horizontal)
+                }
+                .padding(.horizontal)
                 .padding(.top, 30)
                 
                 
-            } .padding()
+            }
+            .padding()
             .padding(.bottom, 65)
             .background(Color("Color2"))
             .clipShape(CShape())
@@ -269,6 +273,7 @@ struct SingUp: View {
                 self.index = 1
             }
             .cornerRadius(35)
+            .padding(.horizontal, 20)
             
             Button(action: {
                 //
@@ -286,5 +291,4 @@ struct SingUp: View {
             .opacity(self.index == 1 ? 1 : 0)
         }
     }
-    
 }
